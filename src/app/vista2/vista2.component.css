@@ -1,17 +1,20 @@
-.vistas2{
+.vista2{
 
     
     text-align: center;
-    background-color: tomato;
+
+    background-color: thistle;
     width: 100%;
-    border-width: 20px;
-    border: blue 10px solid;
+    height: 55px;
+    border-width: 5px;
+    border: rgb(255, 255, 255) 5px outset;
 
     
     
     display: flex;
-    
+    flex-direction: column;    
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    
 
 }

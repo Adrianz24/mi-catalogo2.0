@@ -9,10 +9,18 @@ import { Automovil } from '../models';
 })
 export class Vista2Component implements OnInit {
   autos: Automovil[];
+  autoSeleccionado: Automovil;
+
+  closeResult = '';
+
   constructor() { }
 
   ngOnInit(): void {
     this.autos = AUTOMOVILES;
+  }
+
+  onSelect(auto: Automovil) {
+    this.autoSeleccionado = auto;
   }
 
 }

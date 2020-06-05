@@ -1,10 +1,11 @@
-<div *ngFor='let auto of autos'>
+<div class="vista2" *ngFor='let auto of autos'>
     
+    <div class="item item-icon fas fa-eye fa-3x" (click)="onSelect(auto)"></div>            
+    <div>{{auto.submarca}} /  {{auto.modelo}}</div>
 
-    <div class="item item-icon fas fa-eye fa-3x" (click)="open(auto)"></div>
-    
-    {{auto.submarca}} /  {{auto.modelo}}
-   
-
-      
 </div>
+
+<div>
+    {{autoSeleccionado.marca}} - {{autoSeleccionado.fecha_registro}}
+</div>
+
