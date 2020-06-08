@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgbdModalBasic } from 'src/modal-basic';
+
 
 @Component({
   selector: 'app-root',
