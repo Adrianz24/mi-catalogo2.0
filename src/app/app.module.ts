@@ -1,7 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
-import { NgbdModalBasic }  from './modal-basic';
+/** 
+*import { NgbdModalBasic }  from './modal-basic';
+*/
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -9,6 +11,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { VistasComponent } from './vistas/vistas.component';
 import { Vista2Component } from './vista2/vista2.component';
+import { TablaComponent } from './tabla/tabla.component';
+
 
 
 @NgModule({
@@ -16,8 +20,9 @@ import { Vista2Component } from './vista2/vista2.component';
     AppComponent,
     HeaderComponent,
     VistasComponent,
-    Vista2Component,
-    NgbdModalBasic
+    Vista2Component,    
+    TablaComponent, 
+    /**NgbdModalBasic*/
   ],
   imports: [
     BrowserModule,
