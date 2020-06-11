@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { VistasComponent } from './vistas/vistas.component';
 import { Vista2Component } from './vista2/vista2.component';
 import { TablaComponent } from './tabla/tabla.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -21,7 +22,7 @@ import { TablaComponent } from './tabla/tabla.component';
     HeaderComponent,
     VistasComponent,
     Vista2Component,    
-    TablaComponent, 
+    TablaComponent, PageNotFoundComponent, 
     /**NgbdModalBasic*/
   ],
   imports: [
