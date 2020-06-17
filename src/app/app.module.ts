@@ -13,6 +13,8 @@ import { VistasComponent } from './vistas/vistas.component';
 import { Vista2Component } from './vista2/vista2.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 
@@ -22,11 +24,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HeaderComponent,
     VistasComponent,
     Vista2Component,    
-    TablaComponent, PageNotFoundComponent, 
+    TablaComponent, PageNotFoundComponent,
+     
     /**NgbdModalBasic*/
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     NgbModule 
   ],
