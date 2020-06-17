@@ -11,6 +11,8 @@ import { AutosService } from '../autos.service';
 export class Vista2Component implements OnInit {
   autos: Automovil[];
   autoSeleccionado: Automovil;
+  page: Number = 1;
+  pageSize: Number = 10;
 
   closeResult = '';
 

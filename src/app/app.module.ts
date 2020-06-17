@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { NgxPaginationModule } from 'ngx-pagination'
 /** 
 *import { NgbdModalBasic }  from './modal-basic';
 */
@@ -32,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    NgxPaginationModule,
     NgbModule 
   ],
   providers: [],
