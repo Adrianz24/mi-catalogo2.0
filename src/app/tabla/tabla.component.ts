@@ -11,8 +11,8 @@ import { AutosService } from '../autos.service';
 export class TablaComponent implements OnInit {
   autos: Automovil[];
   autoSeleccionado: Automovil;
-  page: Number = 1;
-  pageSize: Number = 10;
+  page: number = 1;
+  pageSize: number = 10;
 
   closeResult = '';
   constructor(private autoService: AutosService) { }

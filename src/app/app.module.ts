@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
+import { NgbModule, NgbModal } from '@ng-bootstrap/ng-bootstrap'
 import { NgxPaginationModule } from 'ngx-pagination'
-/** 
-*import { NgbdModalBasic }  from './modal-basic';
-*/
+import { NgbdModalComponent } from './modal-basic';
+
+
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,14 +29,16 @@ import { HttpClientModule } from '@angular/common/http';
     Vista2Component,    
     TablaComponent, PageNotFoundComponent,
      
-    /**NgbdModalBasic*/
+    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     NgxPaginationModule,
-    NgbModule 
+    NgbModule
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
