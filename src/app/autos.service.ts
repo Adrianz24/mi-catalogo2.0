@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class AutosService {
 
-  private autosURL = 'https://catalogo-autos.herokuapp.com/api/autos/limit/50'
+  private autosURL = 'https://catalogo-autos.herokuapp.com/api/autos/limit/100'
 
   constructor(private http:HttpClient) { }
 

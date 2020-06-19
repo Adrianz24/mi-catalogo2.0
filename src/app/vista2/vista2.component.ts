@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 /*import { AUTOMOVILES } from '../data';*/
 import { Automovil } from '../models';
 import { AutosService } from '../autos.service';
+import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-vista2',
@@ -11,8 +12,8 @@ import { AutosService } from '../autos.service';
 export class Vista2Component implements OnInit {
   autos: Automovil[];
   autoSeleccionado: Automovil;
-  page: Number = 1;
-  pageSize: Number = 10; 
+  page: number = 1;
+  pageSize: number = 10; 
 
   closeResult = '';
 
@@ -28,4 +29,7 @@ export class Vista2Component implements OnInit {
     this.autoSeleccionado = auto;
   }
 
+
 }
+
+
